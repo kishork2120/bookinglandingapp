@@ -1,7 +1,17 @@
 // Submit calback
 $.validator.setDefaults({
     submitHandler: function () {
-        alert("submitted!");
+        let body = {
+            name:$("#name").val(),
+            email:$("#email").val(),
+            phone:$("#phone").val(),
+            passengers:$("#passengers").val(),
+            pickup:$("#pickup").val(),
+            drop:$("#drop").val(),
+            pickupTime:$("#pickupTime").val(),
+            vehicleType:$("#vehicleType").val(),
+        };
+        console.log(body);
     }
 });
 
