@@ -2245,6 +2245,11 @@ hr.style-one {
 .book-ride-two .booking-form-two > p {
   margin-bottom: 50px;
 }
+label.error {
+  margin-left: 10px;
+  color:red;
+  display: inline;
+}
 .book-ride-two .booking-form-two .row {
   margin-left: -15px;
   margin-right: -15px;
